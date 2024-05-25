@@ -16,6 +16,7 @@ export const Checkbox = styled.input`
   cursor: pointer;
   appearance: none;
   margin: 0;
+
   border: none;
 
   &:checked {
