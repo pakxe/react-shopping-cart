@@ -20,11 +20,11 @@ export const Checkbox = styled.input`
   border: none;
 
   &:checked {
-    background-image: url(${CHECKED});
+    background-image: url("${CHECKED}");
   }
 
   &:not(:checked) {
-    background-image: url(${NOT_CHECKED});
+    background-image: url("${NOT_CHECKED}");
   }
 
   &:disabled {
